@@ -9,6 +9,7 @@
 
 body {
   text-align: center;
+  padding: 10px;
 }
 
 .title {
@@ -84,6 +85,14 @@ body {
   background: none;
   border: 1px solid #ccc;
   border-radius: 5px;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .toast {
